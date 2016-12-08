@@ -1,0 +1,1 @@
+function gradCheck(theta, eps)Jplus = 3.*(theta + eps)^4 + 4Jminus = 3.*(theta - eps)^4 + 4(Jplus-Jminus)/(2.*eps)
